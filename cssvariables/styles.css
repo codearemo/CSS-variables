@@ -1,0 +1,31 @@
+body {
+  background-color: #193549;
+  color: #fff;
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/*Gettiing variables for css*/
+
+:root {
+  --space: ;
+  --blur: ;
+  --push: ;
+  --base: ;
+}
+
+h1 span {
+  color: var(--base);
+}
+
+img {
+  background: var(--base);
+  padding: var(--space);
+  margin-top: var(--push);
+  filter: blur(var(--blur));
+}
