@@ -16,12 +16,12 @@ body {
   --space: ;
   --blur: ;
   --push: ;
-  --base: #cd9900;
+  --base: ;
 }
 
 span {
   color: var(--base);
-}
+  font-size: 50px;}
 
 img {
   background: var(--base);
